@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JavaScript Fundamentals Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🚀 JavaScript Fundamentals Playground</h1>
+
+  <!-- 🎯 Part 1: Basics -->
+  <section>
+    <h2>🎯 Part 1: JavaScript Basics</h2>
+    <p>Enter your age to check if you're eligible to book:</p>
+    <input type="number" id="ageInput" placeholder="Enter your age" />
+    <button onclick="checkVotingEligibility()">Check Eligibility</button>
+    <p id="ageResult"></p>
+  </section>
+
+  <!-- ❤️ Part 2: Functions -->
+  <section>
+    <h2>❤️ Part 2: Functions</h2>
+    <p>Calculate the total price of books:</p>
+    <input type="number" id="price1" placeholder="Price of Book 1" />
+    <input type="number" id="price2" placeholder="Price of Book 2" />
+    <button onclick="calculateTotal()">Calculate Total</button>
+    <p id="totalResult"></p>
+  </section>
+
+  <!-- 🔁 Part 3: Loops -->
+  <section>
+    <h2>🔁 Part 3: Loops</h2>
+    <p>Click to list 5 popular book genres:</p>
+    <button onclick="listGenres()">Show Genres</button>
+    <ul id="genreList"></ul>
+  </section>
+
+  <!-- 🌐 Part 4: DOM Manipulation -->
+  <section>
+    <h2>🌐 Part 4: DOM Manipulation</h2>
+    <p>Click the button to toggle the theme:</p>
+    <button onclick="toggleTheme()">Toggle Theme</button>
+    <p id="themeStatus">Current theme: Light</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
